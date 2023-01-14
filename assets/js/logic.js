@@ -9,6 +9,7 @@ let resultsDisplay = document.getElementById("end-screen");
 let score = document.getElementById("final-score");
 let initials = document.getElementById("initials");
 let scoreSubmitButton = document.getElementById("submit");
+let initialsInput = document.getElementById("initials");
 scoreSubmitButton.addEventListener("click", submitScore);
 
 let i = 0;
@@ -114,5 +115,18 @@ function gameOver(){
     
 }
 
+// function to submit the initials and the score
 
-
+function submitScore(event) {
+    event.preventDefault();
+    let scoreList = JSON.parse(localStorage.getItem("updatedList"));
+    if (scoreList === null) scoreList = [];
+    let newSubmittedScore = {
+        initials: initialsInput.value,
+        score: secondsLeft
+    }
+    localStorage.setItem("score", JSON.stringify(newSubmittedScore));
+    scoreList.push(newSubmittedScore);
+    localStorage.setItem("updatedList", JSON.stringify(scoreList));
+    window.open("highscores.html", ("_self"));
+}
