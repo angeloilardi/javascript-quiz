@@ -23,5 +23,10 @@ let questions = [
         question: "JavaScript has an in-built function JSON.parse() that:",
         answers: ["converts JSON strings into JavaScript objects","converting an object into a JSON string:", "converts a string into a number","converts a number into a string"],
         correct: 0
+    },
+    {
+        question: `typeof ["green", "blue", "yellow"] returns:`,
+        answers: ["boolean", "colors", "Array", "Object"],
+        correct: 3
     }
 ]
