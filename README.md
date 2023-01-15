@@ -15,7 +15,7 @@ When visiting the page, the user is presented with the rules of the game and opt
 
 When the 'Start Quiz' button is clicked, the countdown starts and the first question pops up. The user has 60 seconds to answer as many questions as possible. 
 
-After selectiong an option, a feedback of Wrong! or Correct! will appear briefly.
+After selectiong an option, a feedback of *Wrong!* or *Correct!* will appear briefly.
 
 For each wrong answer, the time will go down by 10 seconds.
 
