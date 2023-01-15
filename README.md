@@ -6,6 +6,8 @@ A timed JavaScript quiz with multiple choices and an highscores board
 
 ## Usage
 
+The web application is avaialble at https://helldorado82.github.io/javascript-quiz/
+
 When visiting the page, the user is presented with the rules of the game and option to start the quiz or view the highscores.
 
 ![page preview](assets/images/start-page-preview.png)
