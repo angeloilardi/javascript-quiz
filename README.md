@@ -28,7 +28,7 @@ The final score will be equal to the seconds left or to 0.
 
 ![submit score preview](assets/images/submit-score-preview.png)
 
-The highscores board displays all the previously submitted scores. The highscores list can be reset by clicking 'Reset Highscores'.
+The highscores board displays all the previously submitted scores. The highscores list can be reset by clicking 'Clear Highscores'.
 
 Scores are saved in the local storage.
 
