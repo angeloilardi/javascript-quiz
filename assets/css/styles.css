@@ -30,6 +30,10 @@ button:hover {
   background-color: #8570a5;
 }
 
+button:active {
+  background-color: #bf28a6;
+}
+
 .choices button {
   display: block;
 }
